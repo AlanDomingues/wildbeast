@@ -7,7 +7,39 @@ body {
   padding: 0px;
 }
 
+body,
+p,
+h1,
+ul,
+li,
+blockquote {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.estrutura {
+  display: grid;
+}
+
+.header {
+  display: grid;
+}
 .header img {
   max-width: 200px;
   background: black;
+}
+
+.side-nav {
+  display: grid;
+}
+
+.side-nav-items img {
+  max-width: 150px;
 }
